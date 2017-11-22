@@ -96,8 +96,8 @@
 *,
 fieldset {
   box-sizing: border-box;
-  font-family: "opensans_light", arial, helvetica, sans-serif;
-  font-size: 16px;
+  font-family: "opensans_regular", arial, helvetica, sans-serif;
+  font-size: 14px;
   font-weight: 300;
   margin: 0;
   padding: 0;
@@ -116,12 +116,12 @@ html {
 p,
 .body-text {
   font-size: 1rem;
-  line-height: 2em;
+  line-height: 1.75em;
   margin-bottom: 16px; }
 
 strong,
 .strong {
-  font-family: "opensans_regular", "opensans_light", arial, helvetica, sans-serif;
+  font-family: "opensans_semibold", "opensans_regular", arial, helvetica, sans-serif;
   font-weight: normal; }
 
 small,
@@ -138,7 +138,7 @@ small,
 
 h1, .faux-h1 {
   color: #575757;
-  font-family: "opensans_light", arial, helvetica, sans-serif;
+  font-family: "opensans_regular", arial, helvetica, sans-serif;
   font-weight: 300;
   line-height: 1.4em;
   margin-bottom: 1em;
@@ -149,7 +149,7 @@ h1, .faux-h1 {
 
 h2, .faux-h2 {
   color: #575757;
-  font-family: "opensans_light", arial, helvetica, sans-serif;
+  font-family: "opensans_regular", arial, helvetica, sans-serif;
   font-weight: 300;
   line-height: 1.4em;
   margin-bottom: 1em;
@@ -160,7 +160,7 @@ h2, .faux-h2 {
 
 h3, .faux-h3 {
   color: #575757;
-  font-family: "opensans_light", arial, helvetica, sans-serif;
+  font-family: "opensans_regular", arial, helvetica, sans-serif;
   font-weight: 300;
   line-height: 1.4em;
   margin-bottom: 1em;
@@ -171,7 +171,7 @@ h3, .faux-h3 {
 
 h4, .faux-h4 {
   color: #575757;
-  font-family: "opensans_light", arial, helvetica, sans-serif;
+  font-family: "opensans_regular", arial, helvetica, sans-serif;
   font-weight: 300;
   line-height: 1.4em;
   margin-bottom: 1em;
@@ -182,7 +182,7 @@ h4, .faux-h4 {
 
 h5, .faux-h5 {
   color: #575757;
-  font-family: "opensans_light", arial, helvetica, sans-serif;
+  font-family: "opensans_regular", arial, helvetica, sans-serif;
   font-weight: 300;
   line-height: 1.4em;
   margin-bottom: 1em;
@@ -193,7 +193,7 @@ h5, .faux-h5 {
 
 h6, .faux-h6 {
   color: #575757;
-  font-family: "opensans_light", arial, helvetica, sans-serif;
+  font-family: "opensans_regular", arial, helvetica, sans-serif;
   font-weight: 300;
   line-height: 1.4em;
   margin-bottom: 1em;
@@ -201,7 +201,7 @@ h6, .faux-h6 {
 
 ul,
 ol {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.28571rem;
   padding-left: 1.25rem; }
   ul ul,
   ul ol,
@@ -228,12 +228,12 @@ a,
     text-decoration: none; }
 
 fieldset {
-  padding-bottom: 0.25rem;
+  padding-bottom: 0.28571rem;
   border: 0; }
 
 legend {
   color: #575757;
-  font-family: "opensans_light", arial, helvetica, sans-serif;
+  font-family: "opensans_regular", arial, helvetica, sans-serif;
   font-weight: 300;
   line-height: 1.4em;
   margin-bottom: 1em;
@@ -245,7 +245,7 @@ legend {
 label,
 .faux-label,
 .input-error-label {
-  font-family: "opensans_regular", "opensans_light", arial, helvetica, sans-serif;
+  font-family: "opensans_semibold", "opensans_regular", arial, helvetica, sans-serif;
   font-weight: normal;
   display: block;
   font-size: 1rem;
@@ -255,7 +255,7 @@ label,
 [type="radio"] + label,
 [type="checkbox"] + label {
   margin: 0;
-  padding-left: 0.125rem;
+  padding-left: 0.14286rem;
   display: inline;
   vertical-align: middle; }
 
@@ -341,7 +341,7 @@ select {
   padding-right: 1.5rem; }
 
 .input-row {
-  padding-bottom: 0.125rem;
+  padding-bottom: 0.14286rem;
   align-items: center;
   display: flex;
   flex-wrap: wrap; }
@@ -367,234 +367,234 @@ select {
   width: 1px; }
 
 .padding {
-  padding: 0.5rem; }
+  padding: 0.57143rem; }
 
 .padding-t {
-  padding-top: 0.5rem; }
+  padding-top: 0.57143rem; }
 
 .padding-r {
-  padding-right: 0.5rem; }
+  padding-right: 0.57143rem; }
 
 .padding-b {
-  padding-bottom: 0.5rem; }
+  padding-bottom: 0.57143rem; }
 
 .padding-l {
-  padding-left: 0.5rem; }
+  padding-left: 0.57143rem; }
 
 .padding-x {
-  padding-right: 0.5rem;
-  padding-left: 0.5rem; }
+  padding-right: 0.57143rem;
+  padding-left: 0.57143rem; }
 
 .padding-y {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem; }
+  padding-top: 0.57143rem;
+  padding-bottom: 0.57143rem; }
 
 .padding-xsm {
-  padding: 0.125rem; }
+  padding: 0.14286rem; }
 
 .padding-t-xsm {
-  padding-top: 0.125rem; }
+  padding-top: 0.14286rem; }
 
 .padding-r-xsm {
-  padding-right: 0.125rem; }
+  padding-right: 0.14286rem; }
 
 .padding-b-xsm {
-  padding-bottom: 0.125rem; }
+  padding-bottom: 0.14286rem; }
 
 .padding-l-xsm {
-  padding-left: 0.125rem; }
+  padding-left: 0.14286rem; }
 
 .padding-x-xsm {
-  padding-right: 0.125rem;
-  padding-left: 0.125rem; }
+  padding-right: 0.14286rem;
+  padding-left: 0.14286rem; }
 
 .padding-y-xsm {
-  padding-top: 0.125rem;
-  padding-bottom: 0.125rem; }
+  padding-top: 0.14286rem;
+  padding-bottom: 0.14286rem; }
 
 .padding-sm {
-  padding: 0.25rem; }
+  padding: 0.28571rem; }
 
 .padding-t-sm {
-  padding-top: 0.25rem; }
+  padding-top: 0.28571rem; }
 
 .padding-r-sm {
-  padding-right: 0.25rem; }
+  padding-right: 0.28571rem; }
 
 .padding-b-sm {
-  padding-bottom: 0.25rem; }
+  padding-bottom: 0.28571rem; }
 
 .padding-l-sm {
-  padding-left: 0.25rem; }
+  padding-left: 0.28571rem; }
 
 .padding-x-sm {
-  padding-right: 0.25rem;
-  padding-left: 0.25rem; }
+  padding-right: 0.28571rem;
+  padding-left: 0.28571rem; }
 
 .padding-y-sm {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem; }
+  padding-top: 0.28571rem;
+  padding-bottom: 0.28571rem; }
 
 .padding-lg {
-  padding: 1rem; }
+  padding: 1.14286rem; }
 
 .padding-t-lg {
-  padding-top: 1rem; }
+  padding-top: 1.14286rem; }
 
 .padding-r-lg {
-  padding-right: 1rem; }
+  padding-right: 1.14286rem; }
 
 .padding-b-lg {
-  padding-bottom: 1rem; }
+  padding-bottom: 1.14286rem; }
 
 .padding-l-lg {
-  padding-left: 1rem; }
+  padding-left: 1.14286rem; }
 
 .padding-x-lg {
-  padding-right: 1rem;
-  padding-left: 1rem; }
+  padding-right: 1.14286rem;
+  padding-left: 1.14286rem; }
 
 .padding-y-lg {
-  padding-top: 1rem;
-  padding-bottom: 1rem; }
+  padding-top: 1.14286rem;
+  padding-bottom: 1.14286rem; }
 
 .padding-xlg {
-  padding: 2rem; }
+  padding: 2.28571rem; }
 
 .padding-t-xlg {
-  padding-top: 2rem; }
+  padding-top: 2.28571rem; }
 
 .padding-r-xlg {
-  padding-right: 2rem; }
+  padding-right: 2.28571rem; }
 
 .padding-b-xlg {
-  padding-bottom: 2rem; }
+  padding-bottom: 2.28571rem; }
 
 .padding-l-xlg {
-  padding-left: 2rem; }
+  padding-left: 2.28571rem; }
 
 .padding-x-xlg {
-  padding-right: 2rem;
-  padding-left: 2rem; }
+  padding-right: 2.28571rem;
+  padding-left: 2.28571rem; }
 
 .padding-y-xlg {
-  padding-top: 2rem;
-  padding-bottom: 2rem; }
+  padding-top: 2.28571rem;
+  padding-bottom: 2.28571rem; }
 
 .margin {
-  margin: 0.5rem; }
+  margin: 0.57143rem; }
 
 .margin-t {
-  margin-top: 0.5rem; }
+  margin-top: 0.57143rem; }
 
 .margin-r {
-  margin-right: 0.5rem; }
+  margin-right: 0.57143rem; }
 
 .margin-b {
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.57143rem; }
 
 .margin-l {
-  margin-left: 0.5rem; }
+  margin-left: 0.57143rem; }
 
 .margin-x {
-  margin-right: 0.5rem;
-  margin-left: 0.5rem; }
+  margin-right: 0.57143rem;
+  margin-left: 0.57143rem; }
 
 .margin-y {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem; }
+  margin-top: 0.57143rem;
+  margin-bottom: 0.57143rem; }
 
 .margin-xsm {
-  margin: 0.5rem; }
+  margin: 0.57143rem; }
 
 .margin-t-xsm {
-  margin-top: 0.125rem; }
+  margin-top: 0.14286rem; }
 
 .margin-r-xsm {
-  margin-right: 0.125rem; }
+  margin-right: 0.14286rem; }
 
 .margin-b-xsm {
-  margin-bottom: 0.125rem; }
+  margin-bottom: 0.14286rem; }
 
 .margin-l-xsm {
-  margin-left: 0.125rem; }
+  margin-left: 0.14286rem; }
 
 .margin-x-xsm {
-  margin-right: 0.125rem;
-  margin-left: 0.125rem; }
+  margin-right: 0.14286rem;
+  margin-left: 0.14286rem; }
 
 .margin-y-xsm {
-  margin-top: 0.125rem;
-  margin-bottom: 0.125rem; }
+  margin-top: 0.14286rem;
+  margin-bottom: 0.14286rem; }
 
 .margin-sm {
-  margin: 0.25rem; }
+  margin: 0.28571rem; }
 
 .margin-t-sm {
-  margin-top: 0.25rem; }
+  margin-top: 0.28571rem; }
 
 .margin-r-sm {
-  margin-right: 0.25rem; }
+  margin-right: 0.28571rem; }
 
 .margin-b-sm {
-  margin-bottom: 0.25rem; }
+  margin-bottom: 0.28571rem; }
 
 .margin-l-sm {
-  margin-left: 0.25rem; }
+  margin-left: 0.28571rem; }
 
 .margin-x-sm {
-  margin-right: 0.25rem;
-  margin-left: 0.25rem; }
+  margin-right: 0.28571rem;
+  margin-left: 0.28571rem; }
 
 .margin-y-sm {
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem; }
+  margin-top: 0.28571rem;
+  margin-bottom: 0.28571rem; }
 
 .margin-lg {
-  margin: 1rem; }
+  margin: 1.14286rem; }
 
 .margin-t-lg {
-  margin-top: 1rem; }
+  margin-top: 1.14286rem; }
 
 .margin-r-lg {
-  margin-right: 1rem; }
+  margin-right: 1.14286rem; }
 
 .margin-b-lg {
-  margin-bottom: 1rem; }
+  margin-bottom: 1.14286rem; }
 
 .margin-l-lg {
-  margin-left: 1rem; }
+  margin-left: 1.14286rem; }
 
 .margin-x-lg {
-  margin-right: 1rem;
-  margin-left: 1rem; }
+  margin-right: 1.14286rem;
+  margin-left: 1.14286rem; }
 
 .margin-y-lg {
-  margin-top: 1rem;
-  margin-bottom: 1rem; }
+  margin-top: 1.14286rem;
+  margin-bottom: 1.14286rem; }
 
 .margin-xlg {
-  margin: 2rem; }
+  margin: 2.28571rem; }
 
 .margin-t-xlg {
-  margin-top: 2rem; }
+  margin-top: 2.28571rem; }
 
 .margin-r-xlg {
-  margin-right: 2rem; }
+  margin-right: 2.28571rem; }
 
 .margin-b-xlg {
-  margin-bottom: 2rem; }
+  margin-bottom: 2.28571rem; }
 
 .margin-l-xlg {
-  margin-left: 2rem; }
+  margin-left: 2.28571rem; }
 
 .margin-x-xlg {
-  margin-right: 2rem;
-  margin-left: 2rem; }
+  margin-right: 2.28571rem;
+  margin-left: 2.28571rem; }
 
 .margin-y-xlg {
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
+  margin-top: 2.28571rem;
+  margin-bottom: 2.28571rem; }
 
 .center-text {
   text-align: center; }
@@ -608,5 +608,21 @@ select {
 
 .circle {
   clip-path: circle(40% at center); }
+
+.card {
+  box-shadow: 0 0 5px #dbdbdb;
+  margin: 0.57143rem;
+  background: #fff;
+  max-width: 400px; }
+  .card__header, .card__body {
+    padding: 1.14286rem; }
+  .card__title {
+    margin: 0;
+    padding: 0;
+    font-family: "opensans_semibold", "opensans_regular", arial, helvetica, sans-serif;
+    font-weight: normal; }
+  .card__body p:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0; }
 
 /*# sourceMappingURL=main.css.map */

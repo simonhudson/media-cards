@@ -1,0 +1,27 @@
+.card {
+	@include box-shadow();
+	@include margin();
+	background: #fff;
+	max-width: $spacing * 50;
+
+	&__header,
+	&__body {
+		@include padding-lg();
+	}
+
+	&__title {
+		@include no-margin();
+		@include no-padding();
+		@include strong();
+	}
+
+	&__body {
+
+		p:last-child {
+			margin-bottom: 0;
+			padding-bottom: 0;
+		}
+
+	}
+
+}
