@@ -620,7 +620,17 @@ select {
     margin: 0;
     padding: 0;
     font-family: "opensans_semibold", "opensans_regular", arial, helvetica, sans-serif;
-    font-weight: normal; }
+    font-weight: normal;
+    font-size: 1.2rem; }
+  .card__header {
+    align-items: center;
+    background: #fafafa;
+    display: flex; }
+  .card__header-img {
+    clip-path: circle(40% at center);
+    height: 48px;
+    margin-right: 8px;
+    width: 48px; }
   .card__body p:last-child {
     margin-bottom: 0;
     padding-bottom: 0; }

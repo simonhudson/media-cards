@@ -39,3 +39,11 @@
 @mixin margin-l-xlg() { margin-left: rem($spacing-xlg); }
 @mixin margin-x-xlg() { margin-right: rem($spacing-xlg); margin-left: rem($spacing-xlg); }
 @mixin margin-y-xlg() { margin-top: rem($spacing-xlg); margin-bottom: rem($spacing-xlg); }
+
+@mixin margin-xxlg() { margin: rem($spacing-xxlg); }
+@mixin margin-t-xxlg() { margin-top: rem($spacing-xxlg); }
+@mixin margin-r-xxlg() { margin-right: rem($spacing-xxlg); }
+@mixin margin-b-xxlg() { margin-bottom: rem($spacing-xxlg); }
+@mixin margin-l-xxlg() { margin-left: rem($spacing-xxlg); }
+@mixin margin-x-xxlg() { margin-right: rem($spacing-xxlg); margin-left: rem($spacing-xxlg); }
+@mixin margin-y-xxlg() { margin-top: rem($spacing-xxlg); margin-bottom: rem($spacing-xxlg); }

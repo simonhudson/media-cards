@@ -13,6 +13,20 @@
 		@include no-margin();
 		@include no-padding();
 		@include strong();
+		font-size: rem($base-font-size * 1.2);
+	}
+
+	&__header {
+		align-items: center;
+		background: #fafafa;
+		display: flex;
+	}
+
+	&__header-img {
+		@include circle();
+		height: $spacing-xxlg;
+		margin-right: $spacing;
+		width: $spacing-xxlg;
 	}
 
 	&__body {
