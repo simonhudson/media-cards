@@ -610,10 +610,13 @@ select {
   clip-path: circle(40% at center); }
 
 .card {
-  box-shadow: 0 0 5px #dbdbdb;
+  transition: all .5s ease-in-out;
+  box-shadow: 0 0 5px #cfcfcf;
   margin: 0.57143rem;
   background: #fff;
   max-width: 400px; }
+  .card:hover, .card:focus {
+    box-shadow: 0 0 15px #afafaf; }
   .card__header, .card__body {
     padding: 1.14286rem; }
   .card__title {
@@ -631,6 +634,8 @@ select {
     height: 48px;
     margin-right: 8px;
     width: 48px; }
+  .card__hero-img {
+    width: 100%; }
   .card__body p:last-child {
     margin-bottom: 0;
     padding-bottom: 0; }

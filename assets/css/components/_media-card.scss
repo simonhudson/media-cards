@@ -1,8 +1,14 @@
 .card {
+	@include transition();
 	@include box-shadow();
 	@include margin();
 	background: #fff;
 	max-width: $spacing * 50;
+
+	&:hover,
+	&:focus {
+		@include box-shadow($spread:15px, $colour:#afafaf);
+	}
 
 	&__header,
 	&__body {
@@ -27,6 +33,10 @@
 		height: $spacing-xxlg;
 		margin-right: $spacing;
 		width: $spacing-xxlg;
+	}
+
+	&__hero-img {
+		@include width-full();
 	}
 
 	&__body {
